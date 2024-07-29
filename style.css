@@ -98,7 +98,7 @@ body {
 	font-size: 250px;
 	color: #9fef00;	
 	position: relative;
-	top: 250px;
+	top: 240px;
 }		
 .soon {
 	font-family: "Ubuntu";
@@ -107,7 +107,7 @@ body {
 	color: #9fef00;	
 	font-size: 30px;
 	position: relative;
-	top: 210px;
+	top: 190px;
 }
 
 .omg {
@@ -116,7 +116,7 @@ body {
 	color: #ffffff;
 	font-family: "Ubuntu";
 	position: relative;
-	top: 540px;
+	top: 575px;
 }
 
 pre {
@@ -156,6 +156,21 @@ pre a {
 
 .colorg {
 	color: #9fef00;
+	display:inline;
+}
+
+.colorr {
+	color: #ba0000;
+	display:inline;
+}
+
+.colory {
+	color: #fff700;
+	display: inline;
+}
+
+.coloro {
+	color: #ffa200;
 	display:inline;
 }
 
@@ -246,6 +261,13 @@ pre a {
 	margin-right: 2px;	
 }
 
+.fa-laptop-code {
+	position: relative;
+	top: 3px;
+	right: 4px;
+	margin-right: -2px;
+}
+
 /* ICONS FIX */
 
 .leaktitle {
@@ -254,5 +276,14 @@ pre a {
 	font-size: 40px;
 	position: relative;
 	bottom: 5px;
+	text-align: center;
+}
+
+.version {
+	font-family: Ubuntu;
+	color: #9fef00;
+	font-size: 30px;
+	position: relative;
+	top: 215px;
 	text-align: center;
 }
