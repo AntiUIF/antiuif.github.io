@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anti UIF - How to interpret Bullet Stats (Update: 26/03/2021)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+.main {
+	position: absolute;
+	top: 30px;
+	right: 41px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidenav">
+  <div class="logofix"><img src="../logo.png" width="240" height="240"></div>
+  
+  <a href="https://antiuif.github.io/"><i class="fa-solid fa-house-signal"></i>[Home]</a>
+  
+  <button class="dropdown-btn"><i class="fa-solid fa-folder-open"></i>[UIF Admin Leaks]
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="uif_admin_policy_update09032024.html">• UIF Admin Policy (Update: 09/03/2024)</a>
+    <a href="uif_admin_commands_leak.html">• UIF Admin Commands Leak</a>
+	<a href="how_to_interpret_bullet_stats_update26032021.html">• How to interpret Bullet Stats (Update: 26/03/2021)</a>
+  </div>
+  
+  <button class="dropdown-btn"><div class="delete">[UIF Groups Leaks]</div>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Coming Soon..</a>
+  </div>
+  
+  <button class="dropdown-btn"><i class="fa-solid fa-user-secret"></i>[SA:MP Cheats] 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="deddosouruc-bug.html">• Deddosouru C-BUG</a>
+	<a href="silent_aimbot.html">• Silent Aimbot</a>
+	<a href="walk_through_walls.html">• Walk through walls</a>
+  </div>
+
+  <button class="dropdown-btn"><i class="fa-solid fa-biohazard"></i>[S0beit Menus] 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Coming Soon...</a>
+  </div>	
+  
+  <a href="changelog.html"><i class="fa-solid fa-laptop-code"></i>[ChangeLog]</a>
+ 
+  <a href="team.html"><i class="fa-solid fa-people-group"></i>[Anti UIF Team]</a>
+  
+  <a href="https://discord.gg/mZXck9srM4" target="_blank"><i class="fa-brands fa-discord"></i>[Discord]</a>
+</div>
+
+<div class="main">
+	<div class="leaktitle">[How to interpret Bullet Stats (Update: 26/03/2021)]</div>
+	<embed src="leaks/How to interpret Bullet Stats (Update 26_03_2021).pdf" width="1500" height="850" type="application/pdf">
+</div>
+
+
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html> 
+
